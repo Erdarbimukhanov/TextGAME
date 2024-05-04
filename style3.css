@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+.city{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    width: 500px;
+    border-radius: 10%;
+}
+.start{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+}
+.choices{
+    position: absolute;
+    color: aliceblue;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+.button1{
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    top: 82%;
+    left: 5%;
+    background-color: #495057;
+    border-radius: 5%;
+    transition: background-color 0.3s ease;
+}
+.button1:hover{
+    background-color: #212529;
+}
+.button2:hover{
+    background-color: #212529;
+}
+.button2{
+    height: 70px;
+    width: 350px;
+    position: absolute;
+    top: 82%;
+    left: 70%;
+    background-color: #495057;
+    border-radius: 5%;
+    transition: background-color 0.3s ease;
+}
+.choice1{
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 22px;
+}
+.choice2{
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 22px;
+}
